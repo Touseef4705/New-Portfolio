@@ -153,7 +153,7 @@ letter-spacing: 0.6rem;
   position: fixed;
   bottom: 40px;
   left: 20px;
-  z-index: 999;
+  z-index: 99;
   /* left: 4.85rem; */
   font-size: 2rem;
   color: var(--orange);
@@ -169,7 +169,7 @@ letter-spacing: 0.6rem;
 }
 .pcDark{
   position: fixed;
-  z-index: 999;
+  z-index: 99;
   bottom: 40px;
   left: 20px;
   /* left: 4.85rem; */
@@ -492,6 +492,7 @@ a.primary {
    position: fixed;
    top: 0.1px;
    left: 0.1px;
+   z-index: 999;
 }
 
   .loader {
